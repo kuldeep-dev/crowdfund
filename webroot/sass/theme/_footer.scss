@@ -1,0 +1,104 @@
+//Footer Section Scss Include Here
+.st-footer{
+	padding:45px 0px 0px 0px;
+	background-color:#f9f9f9;
+	.contact-sec{
+		padding:30px 30px;
+		background-color:#000;
+		margin-bottom:45px;
+		.inner-sec{
+			padding-left:65px;
+			position:relative;
+			.icon-sec{
+				display: block;
+				width: 50px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+				border: 1px solid #fff;
+				position:absolute;
+				left:0;
+				top:0;
+				img{
+					width:20px;
+				}
+			}
+			h5{
+				text-transform:uppercase;
+				color:#fff;
+			}
+			p{
+				color:#fff;
+			}
+		}
+	}
+	.foot-link{
+		h6{
+			margin-bottom:15px;
+		}
+		p{
+			line-height:23px;
+		}
+		ul{
+			margin:0px;
+			li{
+				display:block;
+				list-style-type:none;
+				a{
+					text-decoration:none;
+					color:#333333;
+				}
+			}
+		}
+	}
+	.social-link{
+		h6{
+			margin-bottom:15px;
+		}
+		ul{
+			margin:0px;
+			li{
+				display:inline-block;
+				list-style-type:none;
+				a{
+					display:flex;
+					align-items:center;
+					justify-content:center;
+					text-decoration:none;
+					height:35px;
+					width:35px;
+					background-color:#3b5998;
+					border-radius:50%;
+					img{
+						width:19px;
+					}
+				}
+				&:nth-child(2){
+					a{
+						background-color:#0077b5;
+					}
+				}
+				&:nth-child(3){
+					a{
+						background-color:#55acee;
+					}
+				}
+				&:nth-child(4){
+					a{
+						background-color:#b31217;
+					}
+				}
+			}
+		}
+	}
+	.copyright-sec{
+		padding:10px 0px;
+		background-color:#000000;
+		.inner-sec{
+			p{
+				color:#ffffff;
+				text-align:center;
+			}
+		}
+	}
+}

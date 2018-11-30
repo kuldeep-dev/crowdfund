@@ -1,0 +1,290 @@
+//Crowdfunding Responsive scss include here
+@media only screen and (max-width: 1024px){
+	.browse-sec,
+	.client-sec{
+		.cust-col-5{
+			flex: 0 0 calc(100% / 3);
+			width: calc(100% /3);
+		}
+	}
+	.client-sec{
+		padding-bottom: 30px;
+		.cust-col-5{
+			margin-bottom:30px;
+		}
+	}
+	.payment-sec{
+		.tab-content{
+			.tab-pane{
+				form{
+					.form-check-inline{
+						label{
+							margin-bottom: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 991px){
+	.main-header{
+		.navbar{
+			.navbar-toggler{
+				border-radius: 0px;
+				border-color: #ffffff;
+			}
+		}
+	}
+	.banner-section{
+		.carousel{
+			.carousel-inner{
+				.carousel-item{
+					.carousel-caption{
+						h1{
+							font-size: 27px;
+						}
+						p{
+							font-size: 16px;
+							line-height:normal;
+							margin-bottom:15px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.how-it-works-sec{
+		padding-bottom: 30px;
+		.inner-sec{
+			.content-part{
+				.status-part{
+					.card-sec{
+						margin-bottom:15px;
+					}
+				}
+			}
+		}
+	}
+	.st-footer{
+		.contact-sec{
+			padding-bottom: 15px;
+			.inner-sec{
+				margin-bottom: 15px;
+			}
+		}
+		.foot-link{
+			margin-bottom: 15px;
+		}
+	}
+	.invest-sec{
+		.tab-content-outer{
+			.tab-content{
+				.tab-pane{
+					.body-sec{
+						.form-wrap{
+							.form-group{
+								padding:0px;
+								label{
+									position:static;
+								}
+								&.form-check{ 
+									&.radio-sec{
+										.radio-inner{
+											width: calc((100% / 3) - 15px);
+											margin-bottom: 15px;
+										}
+									}
+								}
+								&.btn-group{
+									flex-wrap:wrap;
+									a{
+										&:first-child{
+											margin-bottom: 15px;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.attach-sec{
+		.tab-content-outer{
+			.body-sec{
+				.form-wrap{
+					.form-group{
+						padding: 0px;
+						label{
+							position: static;
+						}
+					}
+				}
+			}
+		}
+	}
+	.profile-sec{
+		.profile-inner{
+			.btn-sec{
+				.btn{
+					display: block;
+					max-width:220px;
+					margin:auto;
+					margin-bottom:15px;
+					&:last-child{
+						margin-bottom:0px;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 767px){
+	.payment-sec{
+		.tab-menu{
+			margin-bottom: 15px;
+		}
+	}
+}
+@media only screen and (max-width: 736px){
+	.browse-sec,
+	.client-sec{
+		.cust-col-5{
+			flex: 0 0 calc(100% / 2);
+			width: calc(100% / 2);
+			
+		}
+	}
+	.profile-sec{
+		.profile-inner{
+			.title-sec{
+				flex-wrap: wrap;
+				.status-button{
+					position: static;
+					width: 100%;
+					align-items:center;
+					justify-content: center;
+					margin-top: 15px;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 414px){
+	.main-header{
+		.navbar{
+			.container{
+				padding: 0px 15px;
+			}
+		}
+	}
+	.browse-sec,
+	.client-sec{
+		.cust-col-5{
+			flex: 0 0 100%;
+			width: 100%;
+		}
+	}
+	.get_funded-page{
+		.head-sec{	
+			.top-sec{
+				h5{
+					width: 100%;
+					text-align:center;
+					margin-bottom:15px;
+				}
+				a{
+					width: 100%;
+				}
+			}
+		}
+	}
+	.invest-sec{
+		.tab-menu{
+			ul{
+				li{
+					&.nav-item {
+						padding-right:60px;
+					}
+				}
+			}
+		}
+	}
+	.invest-sec{
+		.tab-content-outer{
+			.tab-content{
+				.tab-pane{
+					.body-sec{
+						.form-wrap{
+							.form-group{
+								&.form-check{ 
+									&.radio-sec{
+										.radio-inner{
+											width:100%;
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.profile-sec{
+		.profile-inner{
+			.details-inner{
+				table{
+					word-break: break-all;
+				}
+			}
+		}
+	}
+	.campaign-list-sec{
+		.outer-box{
+			.tab-sec{
+				.tab-content-outer{
+					.form-outer{
+						.form-group{
+							padding:0px;
+							.form-control{
+								position:static;
+								width:100%;
+								margin-bottom:16px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 375px){
+	.banner-section{
+		.carousel{
+			.carousel-inner{
+				.carousel-item{
+					.carousel-caption{
+						h1{
+							font-size: 23px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 320px){
+	.get_funded-page{
+		.head-sec{	
+			.invest-section{
+				.container{
+					max-width: 100%;
+					padding: 0px;
+				}
+			}
+		}
+	}
+}

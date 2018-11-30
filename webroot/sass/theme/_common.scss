@@ -1,0 +1,55 @@
+*{
+	margin:0px;
+	padding:0px;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+//Google Fontface Include Here
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+// Body default style include here
+body{
+	font-size:$font-size;
+	font-family:$font-family;
+	font-weight:400;
+	color:$font-color;
+	line-height:27px;
+} 
+h1, h2, h3, h4, h5, h6{
+	font-family:$font-family;
+	font-weight:600;
+	margin:0px;
+}
+h1{
+	font-size:$heading-one;
+}
+h2{
+	font-size:$heading-two;
+}
+h3{
+	font-size:$heading-three;
+}
+h4{
+	font-size:$heading-four;
+}
+h5{
+	font-size:$heading-five;
+}
+h6{
+	font-size:$heading-six;
+}
+p{
+	font-size:$font-size;
+	font-family:$font-family;
+	font-weight:400;
+	color:$font-color;
+	line-height:27px;
+	margin:0px;
+}
+.clear{
+	clear:$clear;
+}

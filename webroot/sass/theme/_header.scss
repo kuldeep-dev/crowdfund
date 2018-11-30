@@ -1,0 +1,87 @@
+//Header scss include here
+.main-header{
+	.navbar{
+		padding:0.5rem 0;
+		background-color:#000000;
+		z-index: 999;
+		.navbar-nav{
+			li{
+				a{
+					font-size:14px;
+					font-family:$font-family;
+					font-weight:400;
+					color:#fff;
+					padding:10px 25px;
+					line-height:normal;
+					position:relative;
+					&::after{
+						position:absolute;
+						content:'';
+						left:0;
+						top:auto;
+						right:0px;
+						bottom:0px;
+						height:2px;
+						width:80%;
+						background-color:$theme-color;
+						display:none;
+						margin:auto;
+						
+					}
+					&:hover,
+					&:focus{
+						color:#fff;
+						&::after{
+							display:block;
+						}
+					}
+				}
+				&.active{
+					a{
+						color:#fff;
+						&::after{
+							display:block;
+						}
+					}
+				}
+				&:last-child{
+					a{
+						background-color:$theme-color;
+						border-radius:4px;
+						&:hover,
+						&:focus{
+							&::after{
+								display:none;
+							}
+						}
+					}
+					&.active{
+						a{
+							&::after{
+								display:none;
+							}
+						}
+					}
+				}
+				&.avatar{
+					a{
+						padding-top: 0px;
+						padding-bottom: 0px;
+						img{
+							display: block;
+							height: 40px;
+							width: 40px;
+							border-radius: 50px;
+						}
+						&:hover,
+						&:focus{
+							&:after{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
